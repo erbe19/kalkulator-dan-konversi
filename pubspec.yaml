@@ -1,0 +1,25 @@
+name: project_uts
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"  
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Logo.png 
+    - assets/profil.JPG 
+    - assets/suhu.png 
+    - assets/bmi.png 
+    - assets/konversi.png
+
